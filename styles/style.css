@@ -1,0 +1,91 @@
+*,*:before,*:after
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+nav
+{
+	background-color: #282d31;
+}
+
+.nav-test
+{
+	height: 80px;
+}
+
+#logo
+{
+	max-height: 80px;
+}
+
+nav div, nav div form
+{
+	float: left;
+}
+
+.search-box > .form-control
+{
+	border: none;
+	border-radius: 0px;
+}
+
+#menu
+{
+	background-color: white;
+	max-width: 12%;
+	border: 1px solid black;
+}
+
+.new-items-card
+{
+	background-color: #f2f2f2;
+	width: 180px;
+	height: 280px;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+
+.new-items-btn
+{
+	width: 85px;
+	margin-left: 2px;
+}
+
+/*////////////////////////// ANIMATIONS /////////////////////////////////////*/
+
+.login-window
+{
+	animation-name: login-window;
+	animation-duration: 1s;
+	height: 110px;
+}
+
+.login-animation
+{
+	animation-name: login-animation;
+	animation-duration: 2s;
+	opacity: 1;
+}
+
+/*//////////////////////////KEYFRAMES ANIMATION/////////////////////////////*/
+
+@keyframes login-window
+{
+	0%{height: 80px;}
+	100%{height: 110px;}
+}
+
+@keyframes login-animation
+{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
